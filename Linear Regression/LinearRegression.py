@@ -8,6 +8,8 @@ def r2_score(y_true, y_pred):
     corr_matrix = np.corrcoef(y_true, y_pred)
     corr = corr_matrix[0,1]
     return corr**2
+
+# Linear Regression class
 class LinearRegression:
     def __init__(self, learning_rate = 0.001, iter = 1000):
         self.learning_rate = learning_rate
