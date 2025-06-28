@@ -1,7 +1,7 @@
 # ml-algorithms-from-scratch
 Developing multiple ML algorithms from scratch using only libraries like NumPy and PyTorch
 
-##Algorithms Implemented
+#Algorithms Implemented
 
 - **Linear Regression**
   - Cost function (MSE)
